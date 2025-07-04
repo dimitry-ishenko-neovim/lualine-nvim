@@ -1,0 +1,2 @@
+doc lua usr/share/lualine-nvim
+debian/lualine.lua etc/skel/.config/nvim/plugin

@@ -1,0 +1,21 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/nvim-lualine/lualine.nvim
+Upstream-Name: lualine.nvim
+Upstream-Contact: Shadman Saleh <shadmansaleh3@gmail.com>
+
+Files: *
+Copyright:
+ 2021, Ashish Panigrahi
+ 2020-2021, IGI-111
+ 2021, Jnhtr
+ 2020-2021, Shatur95
+ 2023, Willothy
+ 2020-2021, gnuyent
+ 2020-2021, hoob3rt
+ 2020-2021, ronniedroid
+ 2020-2021, shadmansaleh
+License: Expat
+
+Files: debian/*
+Copyright: 2025, Dimitry Ishenko <dimitry.ishenko@gmail.com>
+License: GPL-2+
