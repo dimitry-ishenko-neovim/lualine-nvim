@@ -1,5 +1,12 @@
-lualine-nvim (2025.06.08-1) UNRELEASED; urgency=medium
+lualine-nvim (2025.06.08-1) unstable; urgency=medium
 
-  * Initial release.
+  [ Dimitry Ishenko ]
+  * Add Debian packaging
 
- -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Thu, 03 Jul 2025 22:20:42 -0400
+  [ shadmansaleh ]
+  * chore: autogen (vimdocs+formating)
+
+  [ Shadman ]
+  * Introduce refresh on autocmd again (#1420)
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Fri, 04 Jul 2025 00:48:17 -0400
