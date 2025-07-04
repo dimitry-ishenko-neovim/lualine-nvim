@@ -6,13 +6,12 @@ require("lualine").setup {
         lualine_b = {
             {"branch", icon = "󰊢"},
             "diff",
-            "diagnostics"
+            {"diagnostics", symbols = { error = " ", warn = " ", info = " ", hint = " " }}
         },
         lualine_c = { {"filename", symbols = {
             modified= "*",
             readonly= "󰍁",
-        } } },
-        lualine_z = { "%p%% ☰%l/%L:%v" }
+        } } }
     },
     tabline = {
         lualine_a = { {"buffers", symbols = {modified = "*"}} },
