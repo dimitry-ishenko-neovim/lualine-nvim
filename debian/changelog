@@ -1,3 +1,9 @@
+lualine-nvim (2025.06.08-3) unstable; urgency=medium
+
+  * lualine.lua: customize
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Sat, 05 Jul 2025 16:02:01 -0400
+
 lualine-nvim (2025.06.08-2) unstable; urgency=medium
 
   * lualine.lua: customize
