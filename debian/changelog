@@ -1,3 +1,9 @@
+lualine-nvim (1:0.0-749-ga94f-1) unstable; urgency=medium
+
+  * Change versioning scheme.
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Wed, 09 Jul 2025 14:10:40 -0400
+
 lualine-nvim (2025.06.08-3) unstable; urgency=medium
 
   * lualine.lua: customize
