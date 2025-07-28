@@ -1,3 +1,10 @@
+lualine-nvim (1:0.0-749-ga94f-2) unstable; urgency=medium
+
+  * d/control: add missing dep
+  * Add patch to check if git exists
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Mon, 28 Jul 2025 17:45:10 -0400
+
 lualine-nvim (1:0.0-749-ga94f-1) unstable; urgency=medium
 
   * Change versioning scheme.
