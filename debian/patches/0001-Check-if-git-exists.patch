@@ -1,0 +1,16 @@
+Description: Check if git exists
+Author: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+
+--- lualine-nvim-0.0-749-ga94f.orig/lua/lualine/components/diff/git_diff.lua
++++ lualine-nvim-0.0-749-ga94f/lua/lualine/components/diff/git_diff.lua
+@@ -85,8 +85,9 @@ end
+ ---updates the job args
+ function M.update_diff_args()
+   -- Don't show git diff when current buffer doesn't have a filename
++  -- or git doesn't exist
+   active_bufnr = tostring(vim.api.nvim_get_current_buf())
+-  if #vim.fn.expand('%') == 0 then
++  if #vim.fn.expand('%') == 0 or vim.fn.executable('git') == 0 then
+     M.diff_args = nil
+     git_diff = nil
+     return
